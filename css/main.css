@@ -1,0 +1,306 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	background-image: url(../images/white_wall_hash.png);
+}
+
+/** HEADER **/
+
+header {
+	padding: 20px 0;
+}
+
+.logo {
+	margin-left: 20px;
+	display: inline;
+}
+
+.social-icons {
+	float: right;
+	color: #00796B;
+}
+
+nav {
+	display: block;
+	float: right;
+	margin-top: 30px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	text-decoration: none;
+	padding-right: 10px;
+	color: #757575;
+}
+
+/** HERO AREA **/
+
+.hero {
+	overflow: hidden;
+	padding: 70px 0;
+}
+
+.left {
+	width: 49%;
+	display: inline-block;
+	text-align: center;
+}
+
+.right {
+	display: inline-block;
+	float: right;
+}
+
+.hero h2 {
+	color: #212121;
+	font-weight: 200;
+	font-size: ;
+	
+	text-align: center;
+}
+
+.hero img {
+	width: 75%;
+}
+
+/** USLUGE **/
+
+#usluge {
+	text-align: center;
+	background-color: #bceee2;
+	margin: 0 -9999rem;
+	padding: 0.25rem 9999rem;
+}
+
+.inner-usluge {
+	width: 75%;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+#usluge h1 {
+	color: #757575;
+}
+
+#usluge p {
+	color: #757575;
+}
+
+#usluge hr {
+	width: 20%;
+	margin-bottom: 50px;
+}
+
+/** BANNER **/
+
+.banner img {
+	display: block;
+	margin: 40px auto;
+}
+
+/** Footer **/
+
+footer {
+	background-color: #437262;
+	margin: 0 -9999rem;
+	padding: 0.25rem 9999rem;
+}
+
+
+ul {
+	list-style-type: none;
+}
+
+.navigation {
+	display: inline-block;
+}
+
+.navigation a {
+	color: #e8edeb;
+	text-decoration: none;
+
+}
+
+.navigation a:hover {
+	color: #adcac0;
+}
+
+.navigation li {
+	margin-top: 3px;
+}
+
+.social {
+	display: inline;
+	margin-left: 120px;
+	font-size: 2em;
+	color: #e8edeb;
+}
+
+.social i {
+	margin-left: 10px;
+}
+
+.adresa {
+	display: inline-block;
+	margin-left: 120px;
+	color: #e8edeb;
+}
+
+.foot p {
+	text-align: center;
+	color: #b9e9d9;
+	margin: 30px auto;
+}
+
+/***** stranica Usluge *****/
+
+.nampomje {
+	display: inline-block;
+	position: relative;
+}
+aside {
+	width: 20%;
+	display: inline-block;
+	float: left;
+	height: 1000px;
+}
+
+.sidenav {
+	display: inline-block;
+	border-right: 1px solid gray;
+	height: 1150px;
+}
+
+.sidenav ul {
+	padding: 0;
+}
+
+.sidenav li {
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.sidenav li a {
+	text-decoration: none;
+	color: #757575;
+}
+
+.sidenav li a:hover {
+	text-decoration: underline;
+	color: #959595;
+}
+
+/** Section "Namještaj po mjeri" **/
+
+main {
+	display: inline-block;
+	width: 75%;
+	margin-left: 20px;
+}
+
+#kuhinje {
+	width: 740px;
+	display: inline-block;
+	float: left;
+	margin-top: 30px;
+}
+
+.inner-pic {
+	width: 200px;
+	height: 200px;
+	float: left;
+	display: inline-block;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+.first {
+	background-image: url(../images/kuhinja.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.second {
+	background-image: url(../images/office.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.third {
+	background-image: url(../images/spavaca.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.fourth {
+	background-image: url(../images/ormar.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uredski {
+	display: inline-block;
+	float: left;
+	width: 740px;
+}
+
+#spavace-sobe {
+	display: inline-block;
+	float: left;
+	width: 740px;
+}
+
+#ormari {
+	display: inline-block;
+	width: 740px;
+	float: left;
+	margin-bottom: 30px
+}
+
+/***** Idejna rješenja *****/
+
+#ideje {
+	margin-top: 40px;
+}
+
+.sidenav-ideje {
+	height: 980px;
+}
+
+.ideje-img {
+	margin: 30px auto;
+	width: 90%;
+	height: 400px;
+	background-image: url(../images/idejno_rjesenje.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/***** Popravak namještaja *****/
+
+#popravak {
+	margin-top: 40px;
+}
+
+.popravak-img {
+	margin: 30px auto;
+	width: 90%;
+	height: 400px;
+	background-image: url(../images/popravak-namjestaja.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/****** Montaža i dostava ******/
+
+#montaza-dostava li {
+	list-style-type: circle;
+}
